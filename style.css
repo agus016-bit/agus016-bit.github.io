@@ -1,0 +1,40 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #111;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #222;
+    padding: 40px 20px;
+    color: #fff;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  }
+  
+  footer {
+    background-color: #222;
+    color: #aaa;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+  }
+  
+  .foto-container {
+    margin-top: 30px;
+  }
+  
+  .foto-profil {
+    width: 200px;
+    height: auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .foto-profil:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7);
+  }
+  
